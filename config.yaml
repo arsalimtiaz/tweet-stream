@@ -1,0 +1,9 @@
+start_time: "2023-01-31T00:00:00.000Z"
+end_time: "2023-01-31T23:00:00.000Z"
+time_delta:
+  seconds: 0
+  minutes: 0
+  hours: 1
+  days: 0
+query: "lang:en -is:retweet place_country:US (Twitter API)"
+max_results: 10
