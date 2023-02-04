@@ -118,49 +118,27 @@ class TweetSearch:
             json_response = TweetSearch.connect_to_endpoint(
                 url[0], headers, url[1])
 
-            # in_reply_to_user.clear()
-            # text.clear()
-            # lang.clear()
-            # tweet_id.clear()
-            # source.clear()
-            # conversation_id.clear()
-            # reply_settings.clear()
-            # retweet_count.clear()
-            # reply_count.clear()
-            # like_count.clear()
-            # quote_count.clear()
-            # author_id.clear()
-            # created_at.clear()
+            in_reply_to_user.clear()
+            text.clear()
+            lang.clear()
+            tweet_id.clear()
+            source.clear()
+            conversation_id.clear()
+            reply_settings.clear()
+            retweet_count.clear()
+            reply_count.clear()
+            like_count.clear()
+            quote_count.clear()
+            author_id.clear()
+            created_at.clear()
 
-            # loc.clear()
-            # username.clear()
-            # verified.clear()
+            loc.clear()
+            username.clear()
+            verified.clear()
 
-            # location.clear()
-            # ver.clear()
-            # usern.clear()
-
-            in_reply_to_user = []
-            text = []
-            lang = []
-            tweet_id = []
-            source = []
-            conversation_id = []
-            reply_settings = []
-            retweet_count = []
-            reply_count = []
-            like_count = []
-            quote_count = []
-            author_id = []
-            created_at = []
-
-            loc = {}
-            username = {}
-            verified = {}
-
-            location = []
-            ver = []
-            usern = []
+            location.clear()
+            ver.clear()
+            usern.clear()
 
             with open('data.json', 'w') as f:
                 json.dump(json_response, f)
